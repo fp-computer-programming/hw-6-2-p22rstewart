@@ -16,16 +16,18 @@ print(5 not in my_lst)
 print(10 not in my_lst)
 
 # Question 6
-my_lst2 = "Chris" + "Nolan" + "Ryan"
+my_lst2 = ["Chris", "Nolan", "Ryan"]
 print(list(my_lst2))
 
 # Question 7
-print(my_lst2[10:])
+print(my_lst2[2:])
 
 # Question 8
-print(my_lst2[10:] * 3)
+print(my_lst2 * 3)
 
 # Question 9
 my_2lst = my_lst + my_lst2
 print(my_2lst)
 
+# Question 10
+print(len(my_2lst))
